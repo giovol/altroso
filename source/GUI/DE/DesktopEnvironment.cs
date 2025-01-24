@@ -25,7 +25,7 @@ namespace altroso.GUI.DE
             DistributionName = distributionName;
             DistributionVersion = distributionVersion;
             SurfaceManager surfaceManager = new SurfaceManager();
-            _ = new OOBE(surfaceManager);
+            _ = new LoginWindow(surfaceManager);
             for (;;)
             {
                 surfaceManager.Update();

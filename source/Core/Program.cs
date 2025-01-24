@@ -8,9 +8,13 @@ namespace altroso.Core
 {
     public class Program : Kernel
     {
+        public static string OS_Name = "altroso";
+        public static string OS_Version = "debug";
+        public static string Username, Hostname;
         protected override void BeforeRun()
         {
-            DesktopEnvironment.Start("altroso", "0.1");
+            Hostname = "cosmos";
+            DesktopEnvironment.Start(OS_Name, OS_Version);
         }
         
         protected override void Run()
