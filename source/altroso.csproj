@@ -17,6 +17,11 @@
         <Profile>VMware</Profile>
         <Description>Use VMware Player or Workstation to deploy and debug.</Description>
         <PxeInterface>192.168.0.8</PxeInterface>
+        <RemoveBootDebugOutput>true</RemoveBootDebugOutput>
+		<CompileVBEMultiboot>true</CompileVBEMultiboot>
+        <CompressionType>Gzip</CompressionType>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <VBEResolution>640x480x32</VBEResolution>
     </PropertyGroup>
 
     <ItemGroup>
@@ -24,6 +29,54 @@
         <PackageReference Include="Cosmos.Debug.Kernel" Version="0-*" NoWarn="NU1604" />
         <PackageReference Include="Cosmos.System2" Version="0-*" NoWarn="NU1604" />
         <PackageReference Include="Cosmos.Plugs" Version="0-*" NoWarn="NU1604" />
+        <PackageReference Include="PrismAPI" Version="1.0.3" NoWarn="NU1604;NU1605" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="GUI/Resources/Cantarell.acf" />
+        <EmbeddedResource Include="GUI/Resources/CantarellBold.acf" />
+        <EmbeddedResource Include="GUI/Resources/CantarellLarge.acf" />
+        <EmbeddedResource Include="GUI/Resources/LiberationSerif.acf" />
+        <EmbeddedResource Include="GUI/Resources/Serif.acf" />
+        <EmbeddedResource Include="GUI/Resources/Segment.acf" />
+        <EmbeddedResource Include="GUI/Resources/Pointer.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Pointer_Resize.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Pointer_Move.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Pointer_IBeam.bmp" />
+        <EmbeddedResource Include="GUI/Resources/TitleBar_Left.bmp" />
+        <EmbeddedResource Include="GUI/Resources/TitleBar_Middle.bmp" />
+        <EmbeddedResource Include="GUI/Resources/TitleBar_Right.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Close.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Close_Hover.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Close_Press.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Max.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Max_Hover.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Max_Press.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Min.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Min_Hover.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Min_Press.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Question.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Wallpaper.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Shadow_Corner_TopLeft.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Shadow_Corner_TopRight.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Shadow_Corner_BottomLeft.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Shadow_Corner_BottomRight.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Shadow_Edge_Left.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Shadow_Edge_Right.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Shadow_Edge_Top.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Shadow_Edge_Bottom.bmp" />
+        <EmbeddedResource Include="GUI/Resources/MenuSelectionGradient.bmp" />
+        <EmbeddedResource Include="GUI/Resources/ContextMenuSelectionGradient.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Button.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Button_Press.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Power.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Computer.bmp" />
+        <EmbeddedResource Include="GUI/Resources/DVD.bmp" />
+        <EmbeddedResource Include="GUI/Resources/CheckBox.bmp" />
+        <EmbeddedResource Include="GUI/Resources/CheckBox_Checked.bmp" />
+        <EmbeddedResource Include="GUI/Resources/RadioButton.bmp" />
+        <EmbeddedResource Include="GUI/Resources/RadioButton_Checked.bmp" />
+        <EmbeddedResource Include="GUI/Resources/Keyboard.bmp" />
     </ItemGroup>
 
 </Project>
