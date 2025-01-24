@@ -3,9 +3,9 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System.Collections.Generic;
-using Mirage.SurfaceKit;
+using altroso.GUI.SurfaceKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// An application which manages a set of windows.

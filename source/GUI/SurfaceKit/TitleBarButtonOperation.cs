@@ -4,9 +4,9 @@
  */
 using System.Drawing;
 using Cosmos.System;
-using Mirage.InputKit;
+using altroso.GUI.InputKit;
 
-namespace Mirage.SurfaceKit
+namespace altroso.GUI.SurfaceKit
 {
     /// <summary>
     /// Represents one of a title bar's buttons being pressed.

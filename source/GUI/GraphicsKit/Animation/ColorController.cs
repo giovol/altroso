@@ -4,7 +4,7 @@
  */
 using System;
 
-namespace Mirage.GraphicsKit.Animation;
+namespace altroso.GUI.GraphicsKit.Animation;
 
 /// <summary>
 /// The <see cref="ColorController"/> class, used to add basic ease transitions to colors.

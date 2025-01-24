@@ -5,9 +5,9 @@
 using System;
 using Cosmos.Core.Multiboot;
 using Cosmos.HAL.Drivers.Video.SVGAII;
-using Mirage.GraphicsKit;
+using altroso.GUI.GraphicsKit;
 
-namespace Mirage.GraphicsKit.Hardware.Vesa;
+namespace altroso.GUI.GraphicsKit.Hardware.Vesa;
 
 /// <summary>
 /// The VBE canvas extention class.

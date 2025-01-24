@@ -2,9 +2,9 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-using Mirage.GraphicsKit;
+using altroso.GUI.GraphicsKit;
 
-namespace Mirage.TextKit
+namespace altroso.GUI.TextKit
 {
     /// <summary>
     /// A positioned glyph with a style.

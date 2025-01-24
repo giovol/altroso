@@ -3,9 +3,9 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System;
-using Mirage.GraphicsKit;
+using altroso.GUI.GraphicsKit;
 
-namespace Mirage.SurfaceKit
+namespace altroso.GUI.SurfaceKit
 {
     /// <summary>
     /// A button in a surface's title bar.

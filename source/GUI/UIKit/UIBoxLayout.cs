@@ -5,7 +5,7 @@
 using System;
 using System.Drawing;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// A view that lays its children out in a line.

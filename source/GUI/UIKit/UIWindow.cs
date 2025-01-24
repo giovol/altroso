@@ -4,13 +4,13 @@
  */
 // #define MIRAGE_UIKIT_UIWINDOW_DEBUGINFO
 
-using Mirage.SurfaceKit;
+using altroso.GUI.SurfaceKit;
 using System.Drawing;
 using System.Collections.Generic;
-using Mirage.DataKit;
-using Mirage.InputKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.InputKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// A window with a titlebar and content.

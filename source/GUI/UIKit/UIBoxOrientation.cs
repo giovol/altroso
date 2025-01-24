@@ -2,7 +2,7 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// The orientation of a box.

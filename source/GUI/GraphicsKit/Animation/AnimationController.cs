@@ -5,7 +5,7 @@
 using System;
 using System.Threading;
 
-namespace Mirage.GraphicsKit.Animation;
+namespace altroso.GUI.GraphicsKit.Animation;
 
 /// <summary>
 /// The <see cref="AnimationController"/> class, used to add basic ease animations or transitions to anything.

@@ -3,11 +3,11 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System.Drawing;
-using Mirage.DataKit;
-using Mirage.GraphicsKit;
-using Mirage.InputKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.GraphicsKit;
+using altroso.GUI.InputKit;
 
-namespace Mirage.SurfaceKit
+namespace altroso.GUI.SurfaceKit
 {
     /// <summary>
     /// A surface to be displayed on the screen.

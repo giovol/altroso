@@ -3,9 +3,9 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System;
-using Mirage.GraphicsKit;
+using altroso.GUI.GraphicsKit;
 
-namespace Mirage.TextKit
+namespace altroso.GUI.TextKit
 {
     /// <summary>
     /// Handles rendering of <see cref="TextLayout"/> objects.

@@ -3,9 +3,9 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System;
-using Mirage.DataKit;
+using altroso.GUI.DataKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// An item for use in a <see cref="UIContextMenu"/>.

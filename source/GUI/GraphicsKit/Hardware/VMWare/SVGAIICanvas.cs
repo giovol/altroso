@@ -3,12 +3,12 @@
  *  github.com/mirage-desktop/Mirage
  */
 using Cosmos.HAL.Drivers.Video.SVGAII;
-using Mirage.GraphicsKit;
+using altroso.GUI.GraphicsKit;
 using Cosmos.Core;
 using Cosmos.HAL;
 using System;
 
-namespace Mirage.GraphicsKit.Hardware.VMWare;
+namespace altroso.GUI.GraphicsKit.Hardware.VMWare;
 
 /// <summary>
 /// The VMWare SVGAII canvas class. Allows for fast(er) graphics.

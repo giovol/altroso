@@ -4,7 +4,7 @@
  */
 using Cosmos.System;
 
-namespace Mirage.SurfaceKit
+namespace altroso.GUI.SurfaceKit
 {
     /// <summary>
     /// Represents a modal being removed by interacting with a surface outside of its bounds.

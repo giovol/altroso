@@ -2,9 +2,10 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-using Mirage.SurfaceKit;
 
-namespace Mirage.DE
+using altroso.GUI.SurfaceKit;
+
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// Responsible for initialising and running the desktop environment.

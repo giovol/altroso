@@ -3,10 +3,10 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System.Drawing;
-using Mirage.GraphicsKit;
+using altroso.GUI.GraphicsKit;
 using MouseManager = Cosmos.System.MouseManager;
 
-namespace Mirage.InputKit
+namespace altroso.GUI.InputKit
 {
     /// <summary>
     /// The user's mouse pointer.

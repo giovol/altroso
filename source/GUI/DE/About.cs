@@ -4,12 +4,12 @@
  */
 using System;
 using System.Collections.Generic;
-using Mirage.GraphicsKit;
-using Mirage.SurfaceKit;
-using Mirage.TextKit;
-using Mirage.UIKit;
+using altroso.GUI.GraphicsKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.TextKit;
+using altroso.GUI.UIKit;
 
-namespace Mirage.DE
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// System information application.

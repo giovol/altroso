@@ -5,10 +5,10 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
-using Mirage.DataKit;
-using Mirage.SurfaceKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.SurfaceKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// A context menu that displays <see cref="UIContextMenuItem"/> objects.

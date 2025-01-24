@@ -6,7 +6,7 @@ using System.IO;
 using System;
 using System.Text;
 
-namespace Mirage.TextKit
+namespace altroso.GUI.TextKit
 {
     /// <summary>
     /// An ACF (Advanced Cosmos Font Format) font face.

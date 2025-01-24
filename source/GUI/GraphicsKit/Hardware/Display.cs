@@ -2,14 +2,14 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-using Mirage.GraphicsKit.Hardware.VMWare;
-using Mirage.GraphicsKit.Hardware.Vesa;
+using altroso.GUI.GraphicsKit.Hardware.VMWare;
+using altroso.GUI.GraphicsKit.Hardware.Vesa;
 using Cosmos.Core.Multiboot;
 using Cosmos.System;
 using System;
 using System.Threading;
 
-namespace Mirage.GraphicsKit.Hardware;
+namespace altroso.GUI.GraphicsKit.Hardware;
 
 /// <summary>
 /// The generic display interface. Used to abstract driver classes and get display output.

@@ -2,7 +2,7 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-namespace Mirage.DataKit
+namespace altroso.GUI.DataKit
 {
     /// <summary>
     /// Represents the arguments of a state toggle signal.

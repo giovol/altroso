@@ -3,11 +3,11 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System.Collections.Generic;
-using Mirage.GraphicsKit;
-using Mirage.SurfaceKit;
-using Mirage.TextKit;
+using altroso.GUI.GraphicsKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.TextKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// A generic dialogue box.

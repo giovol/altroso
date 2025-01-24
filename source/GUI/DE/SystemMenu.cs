@@ -3,14 +3,14 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System;
-using Mirage.DataKit;
-using Mirage.GraphicsKit;
-using Mirage.GraphicsKit.Animation;
-using Mirage.SurfaceKit;
-using Mirage.TextKit;
-using Mirage.UIKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.GraphicsKit;
+using altroso.GUI.GraphicsKit.Animation;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.TextKit;
+using altroso.GUI.UIKit;
 
-namespace Mirage.DE
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// System menu bar.

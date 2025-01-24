@@ -3,9 +3,9 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System.Drawing;
-using Mirage.GraphicsKit;
+using altroso.GUI.GraphicsKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// A view that has a canvas.

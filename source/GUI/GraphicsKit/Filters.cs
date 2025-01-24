@@ -6,7 +6,7 @@ using System;
 using System.Xml.XPath;
 using Cosmos.Core;
 
-namespace Mirage.GraphicsKit;
+namespace altroso.GUI.GraphicsKit;
 
 /// <summary>
 /// The <see cref="Filters"/> class, used to apply advanced filter effects to a graphics canvas.

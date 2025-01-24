@@ -4,12 +4,12 @@
  */
 using System;
 using System.Drawing;
-using Mirage.DataKit;
-using Mirage.InputKit;
-using Mirage.SurfaceKit;
-using Mirage.TextKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.InputKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.TextKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// A view that displays rich text.

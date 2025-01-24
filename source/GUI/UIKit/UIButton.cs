@@ -4,10 +4,10 @@
  */
 using System;
 using System.Drawing;
-using Mirage.DataKit;
-using Mirage.InputKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.InputKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// A generic button view which can take on various form factors and styles.

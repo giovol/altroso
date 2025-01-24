@@ -3,13 +3,13 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System.Runtime.InteropServices;
-using Mirage.GraphicsKit.Fonts;
+using altroso.GUI.GraphicsKit.Fonts;
 using Cosmos.Core;
 using System;
 using System.Linq;
 using System.Drawing;
 
-namespace Mirage.GraphicsKit;
+namespace altroso.GUI.GraphicsKit;
 
 /// <summary>
 /// The <see cref="Canvas"/> class, used for rendering content on a 2D surface.

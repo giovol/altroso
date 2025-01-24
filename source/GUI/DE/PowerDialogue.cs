@@ -4,11 +4,11 @@
  */
 using System.Collections.Generic;
 using System.Threading;
-using Mirage.SurfaceKit;
-using Mirage.TextKit;
-using Mirage.UIKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.TextKit;
+using altroso.GUI.UIKit;
 
-namespace Mirage.DE
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// Responsible for displaying power dialogues.

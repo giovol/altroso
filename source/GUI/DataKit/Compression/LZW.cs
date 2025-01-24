@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mirage.DataKit.Compression;
+namespace altroso.GUI.DataKit.Compression;
 
 /// <summary>
 /// LZW (De)compression class.

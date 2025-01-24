@@ -2,7 +2,7 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-namespace Mirage.TextKit
+namespace altroso.GUI.TextKit
 {
     /// <summary>
     /// Represents a single, reusable glyph for a character.

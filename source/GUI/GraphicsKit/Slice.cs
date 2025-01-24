@@ -2,7 +2,7 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-namespace Mirage.GraphicsKit
+namespace altroso.GUI.GraphicsKit
 {
     /// <summary>
     /// A 9-slice image.

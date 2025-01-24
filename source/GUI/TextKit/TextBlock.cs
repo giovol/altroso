@@ -5,10 +5,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Mirage.DataKit;
-using Mirage.GraphicsKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.GraphicsKit;
 
-namespace Mirage.TextKit
+namespace altroso.GUI.TextKit
 {
     /// <summary>
     /// Represents a block of rich text.

@@ -3,13 +3,13 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System.Collections.Generic;
-using Mirage.GraphicsKit;
-using Mirage.GraphicsKit.Hardware;
-using Mirage.InputKit;
+using altroso.GUI.GraphicsKit;
+using altroso.GUI.GraphicsKit.Hardware;
+using altroso.GUI.InputKit;
 using Cosmos.System;
 using System;
 
-namespace Mirage.SurfaceKit
+namespace altroso.GUI.SurfaceKit
 {
     /// <summary>
     /// Manages and renders <see cref="Surface"/>s.
@@ -39,7 +39,7 @@ namespace Mirage.SurfaceKit
             string message = "Starting Mirage...";
             int x = (_display.Width - GraphicsKit.Fonts.Font.Fallback.MeasureString(message)) / 2;
             int y = (_display.Height - GraphicsKit.Fonts.Font.Fallback.Size) / 2;
-            _display.DrawString(x, y, message, GraphicsKit.Fonts.Font.Fallback, Color.White);
+            _display.DrawString(x, y, message, altroso.GUI.GraphicsKit.Fonts.Font.Fallback, Color.White);
             _display.Update();
         }
 

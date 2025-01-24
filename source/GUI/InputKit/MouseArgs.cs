@@ -4,9 +4,9 @@
  */
 using System.Drawing;
 using Cosmos.System;
-using Mirage.DataKit;
+using altroso.GUI.DataKit;
 
-namespace Mirage.InputKit
+namespace altroso.GUI.InputKit
 {   
     /// <summary>
     /// Signal arguments for a mouse event.

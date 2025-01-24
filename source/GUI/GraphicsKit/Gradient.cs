@@ -4,7 +4,7 @@
  */
 using System;
 
-namespace Mirage.GraphicsKit;
+namespace altroso.GUI.GraphicsKit;
 
 /// <summary>
 /// Gradient class, used for generating gradients.

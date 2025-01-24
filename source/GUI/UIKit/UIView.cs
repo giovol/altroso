@@ -4,11 +4,11 @@
  */
 using System.Collections.Generic;
 using System.Drawing;
-using Mirage.DataKit;
-using Mirage.InputKit;
-using Mirage.SurfaceKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.InputKit;
+using altroso.GUI.SurfaceKit;
 
-namespace Mirage.UIKit
+namespace altroso.GUI.UIKit
 {
     /// <summary>
     /// A view in the scene graph.

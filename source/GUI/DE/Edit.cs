@@ -2,10 +2,10 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-using Mirage.SurfaceKit;
-using Mirage.UIKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.UIKit;
 
-namespace Mirage.DE
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// Text editor application.

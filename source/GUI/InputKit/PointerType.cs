@@ -2,7 +2,7 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-namespace Mirage.SurfaceKit
+namespace altroso.GUI.SurfaceKit
 {
     /// <summary>
     /// Describes the visual type of a mouse cursor.
@@ -11,7 +11,7 @@ namespace Mirage.SurfaceKit
     {
         /// <summary>
         /// Default pointer.
-        /// </summary>
+        // </summary>
         Default = 0,
 
         /// <summary>

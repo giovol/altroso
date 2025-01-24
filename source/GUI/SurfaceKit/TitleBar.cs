@@ -6,11 +6,11 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using Cosmos.System;
-using Mirage.GraphicsKit;
-using Mirage.InputKit;
-using Mirage.TextKit;
+using altroso.GUI.GraphicsKit;
+using altroso.GUI.InputKit;
+using altroso.GUI.TextKit;
 
-namespace Mirage.SurfaceKit
+namespace altroso.GUI.SurfaceKit
 {
     /// <summary>
     /// The title bar of a surface.

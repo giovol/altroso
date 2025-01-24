@@ -2,7 +2,7 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-namespace Mirage.GraphicsKit.Animation;
+namespace altroso.GUI.GraphicsKit.Animation;
 
 /// <summary>
 /// This is an enum to keep a list of all the possible fade types.

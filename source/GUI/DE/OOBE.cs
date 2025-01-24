@@ -2,14 +2,17 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
+
 using System.Collections.Generic;
 using Cosmos.System.ScanMaps;
-using Mirage.GraphicsKit;
-using Mirage.SurfaceKit;
-using Mirage.TextKit;
-using Mirage.UIKit;
+using altroso;
+using altroso.GUI.DE;
+using altroso.GUI.GraphicsKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.TextKit;
+using altroso.GUI.UIKit;
 
-namespace Mirage.DE
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// Out of box experience application.
@@ -23,7 +26,8 @@ namespace Mirage.DE
             ("German (Deutsch)", new DEStandardLayout()),
             ("Spanish (Español)", new ESStandardLayout()),
             ("French (Français)", new FRStandardLayout()),
-            ("Turkish (Türkçe)", new TRStandardLayout())
+            ("Turkish (Türkçe)", new TRStandardLayout()),
+            ("Italian (Italiano)", new ITStandardLayout())
         };
 
         /// <summary>
@@ -80,7 +84,7 @@ namespace Mirage.DE
             }
             layout.LayOut();
             options[0].Checked = true;
-
+            
             UIButton close = new UIButton("OK");
             close.Location = new(
                 MainWindow.Surface.Canvas.Width - close.Size.Width - 24,

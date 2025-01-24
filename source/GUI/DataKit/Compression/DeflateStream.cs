@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Mirage.DataKit.Compression;
+namespace altroso.GUI.DataKit.Compression;
 
 /// <summary>
 /// public domain zlib decode

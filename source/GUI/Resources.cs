@@ -6,12 +6,12 @@
 #pragma warning disable CS0649
 #pragma warning disable CS8604
 
-using Mirage.TextKit;
+using altroso.GUI.TextKit;
 using IL2CPU.API.Attribs;
-using Mirage.GraphicsKit;
+using altroso.GUI.GraphicsKit;
 using System.IO;
 
-namespace Mirage
+namespace altroso.GUI
 {
     public static class Resources
     {

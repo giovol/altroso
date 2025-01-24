@@ -2,15 +2,15 @@
  *  This file is part of the Mirage Desktop Environment.
  *  github.com/mirage-desktop/Mirage
  */
-using Mirage.DataKit;
-using Mirage.DataKit.Compression;
+using altroso.GUI.DataKit;
+using altroso.GUI.DataKit.Compression;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Mirage.GraphicsKit;
+namespace altroso.GUI.GraphicsKit;
 
 public unsafe static class Image
 {

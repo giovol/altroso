@@ -3,12 +3,12 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System;
-using Mirage.DataKit;
-using Mirage.GraphicsKit;
-using Mirage.SurfaceKit;
-using Mirage.UIKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.GraphicsKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.UIKit;
 
-namespace Mirage.DE
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// DVD screensaver demo.

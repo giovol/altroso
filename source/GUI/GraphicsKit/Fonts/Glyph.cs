@@ -4,7 +4,7 @@
  */
 using System.Collections.Generic;
 
-namespace Mirage.GraphicsKit.Fonts;
+namespace altroso.GUI.GraphicsKit.Fonts;
 
 /// <summary>
 /// The glyph class, used for caching font glyphs.

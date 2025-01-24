@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Mirage.TextKit
+namespace altroso.GUI.TextKit
 {
     /// <summary>
     /// Represents glyphs laid out on a single line.

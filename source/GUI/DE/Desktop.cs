@@ -3,10 +3,10 @@
  *  github.com/mirage-desktop/Mirage
  */
 using System.Drawing;
-using Mirage.SurfaceKit;
-using Mirage.UIKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.UIKit;
 
-namespace Mirage.DE
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// Displays the wallpaper.

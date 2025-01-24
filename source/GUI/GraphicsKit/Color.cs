@@ -5,7 +5,7 @@
 using System;
 using System.Globalization;
 
-namespace Mirage.GraphicsKit;
+namespace altroso.GUI.GraphicsKit;
 
 /// <summary>
 /// Color class, used for drawing.

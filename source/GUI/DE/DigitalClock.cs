@@ -4,11 +4,12 @@
  */
 using System;
 using System.Drawing;
-using Mirage.DataKit;
-using Mirage.SurfaceKit;
-using Mirage.UIKit;
+using altroso.GUI.DataKit;
+using altroso.GUI.SurfaceKit;
+using altroso.GUI.UIKit;
+using altroso.GUI.TextKit;
 
-namespace Mirage.DE
+namespace altroso.GUI.DE
 {
     /// <summary>
     /// Digital clock application.
@@ -25,7 +26,7 @@ namespace Mirage.DE
                 BackgroundColor = GraphicsKit.Color.Black
             };
             // MainWindow.Surface.BorderColor = GraphicsKit.Color.Black;
-            _clock = new UITextView(new TextKit.TextStyle(Resources.Segment, GraphicsKit.Color.Red))
+            _clock = new UITextView(new TextStyle(Resources.Segment, GraphicsKit.Color.Red))
             {
                 HorizontalAlignment = TextKit.TextAlignment.Center,
                 FillWidth = true,

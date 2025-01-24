@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Mirage.DataKit
+namespace altroso.GUI.DataKit
 {
     /// <summary>
     /// A class which broadcasts signals to its subscribers.
